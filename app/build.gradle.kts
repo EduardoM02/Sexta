@@ -4,7 +4,13 @@ plugins {
 
 android {
     namespace = "com.example.sexta"
-    compileSdk = 34
+    compileSdk = 35
+
+    viewBinding{
+
+        enable = true
+
+    }
 
     defaultConfig {
         applicationId = "com.example.sexta"
